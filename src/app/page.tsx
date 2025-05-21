@@ -8,8 +8,7 @@ import Image from "next/image";
 
 import "../styles/home.style.css"
 
-import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
+import { useEffect, useRef } from 'react'; 
 
 export default function Home() {
   return (
