@@ -1,6 +1,12 @@
 
 
-export default function EventCard(props ){
+type EventCardProps = {
+  title: string;
+  img: string;
+  desc: string;
+};
+
+export default function EventCard(props : EventCardProps ){
 
     return(
 
