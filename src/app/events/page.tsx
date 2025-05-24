@@ -1,4 +1,8 @@
-const Card = ({ image, title, description }) => {
+type CardpropType = {image:string, title: string, description: string }
+
+
+
+const Card = ({ image, title, description } : CardpropType) => {
     return (
         <div className="bg-[#121212] text-white rounded-xl overflow-hidden shadow-md border border-gray-800 hover:shadow-orange-500/30 transition-shadow">
             <img src={image} alt={title} className="w-full h-48 object-cover" />
