@@ -5,3 +5,20 @@
     background: url("../../public/assets/images/homepage-bg.jpg");
     
 }
+
+
+
+.teamSection{
+ background-color: #191919;
+ border-radius: 15px;
+}
+
+
+.Event-element {
+    border: solid 1px white;
+    border-radius: 10px;
+    /* padding: 20px 30px; */
+    border-top: none;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}

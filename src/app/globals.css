@@ -52,7 +52,9 @@
   --background: #000000;
 }
 
-
+a{
+  cursor: pointer !important;
+}
 
 body {
   background: var(--background);
@@ -87,4 +89,33 @@ body {
      background: linear-gradient(to right, #f5af19, #f12711);
     padding: 4px;
     border-radius: 13px;
+}
+
+
+
+
+.Button{
+    padding: 12px 20px;
+    background-color: #FF5722;
+    border-radius: 28px;
+    cursor: pointer;
+    border: solid 2px transparent;
+    transition: all 0.4s  cubic-bezier(0.075, 0.82, 0.165, 1) ;
+}
+
+
+.Button:hover{
+  background-color: transparent;
+  border: solid 2px #FF5722;
+}
+
+
+/* Font definations */
+
+.polysans{
+  font-family: "polysans", sans-serif;
+}
+
+.DMSans{
+  font-family: "DM Sans", sans-serif;
 }
