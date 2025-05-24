@@ -43,7 +43,7 @@ export default function Home() {
                 <div>
 
                 </div>
-                <Button  className="mt-5"  text="Learn More." />
+                <Button  class="mt-5"  text="Learn More." />
               </div>
 
 
@@ -56,7 +56,7 @@ export default function Home() {
          
         <h1 className="polysans   text-3xl lg:text-5xl text-center" >Meet Our Team</h1>
         <img className="mt-5   rounded-[10px]" src="https://acorn.works/wp-content/uploads/2023/08/team-building-leadership.jpg" alt="" />
-        <Button  className="mt-10"  text="Explore Team" />
+        <Button  class="mt-10"  text="Explore Team" />
 
       </div>
 
