@@ -124,10 +124,7 @@ const images = [
   }, {
     src: './assets/images/shots/adv (4).jpg',
     name: 'Advika Tiwari',
-  },  {
-    src: './assets/images/shots/adv (4).jpg',
-    name: 'Advika Tiwari',
-  },
+  }, 
 
 
   {
@@ -275,17 +272,17 @@ const images = [
   {
     src: './assets/images/shots/advk (2).jpg',
     name: 'Advik',
-  },,
+  },
 
   {
     src: './assets/images/shots/advk (3).jpg',
     name: 'Advik',
-  },,
+  },
 
   {
     src: './assets/images/shots/advk (4).jpg',
     name: 'Advik',
-  },
+  }
 ]
 
 

@@ -1,4 +1,13 @@
-function Card({ img, name, role, size = "small" }) {
+
+type CardProps = {
+  img: string
+  name: string
+  role: string
+  size?: "small" | "big" | "big-xl"
+}
+
+
+function Card({ img, name, role, size = "small" }:CardProps) {
   const isBig = size === "big";
   var imgSizeClass = isBig ? "sm:size-80 lg:size-80" : "sm:size-48 lg:size-60";
 
