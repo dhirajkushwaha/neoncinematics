@@ -19,13 +19,20 @@ export default function Footer() {
                     <a href=" " className="flex justify-center ">
                         <img className="w-[200px] mix-blend-exclusion" src="./assets/images/neonlogo.jpg" alt="" />
                     </a>
-                    <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b" style={{borderColor:"oklch(0.34 0 0)"}} >
-                        <li><a href="#" className=" hover:text-[#bbbbbb]">Events</a></li>
-                        <li><a href="#" className="  hover:text-[#bbbbbb]">Team</a></li>
-                        <li><a href="#" className="  hover:text-[#bbbbbb]">Goal</a></li>
-                        <li><a href="#" className="  hover:text-[#bbbbbb]">Blog</a></li>
-                        <li><a href="#" className="  hover:text-[#bbbbbb]">About</a></li>
-                    </ul>
+
+
+                    <div className="py-16 pb-0 mb-10 " style={{ borderColor: "oklch(0.34 0 0)" }}>
+                        <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 "  >
+                            <li><a href="#" className=" hover:text-[#bbbbbb]">Events</a></li>
+                            <li><a href="#" className="  hover:text-[#bbbbbb]">Team</a></li>
+                            <li><a href="#" className="  hover:text-[#bbbbbb]">Goal</a></li>
+                            <li><a href="#" className="  hover:text-[#bbbbbb]">Blog</a></li>
+                            <li><a href="#" className="  hover:text-[#bbbbbb]">About</a></li>
+                        </ul>
+
+
+                    </div>
+
                     <div className="flex space-x-10 justify-center items-center mb-14">
                         <a href="#" className="block  text transition-all duration-500 hover:text-[#bbbbbb] ">
                             <svg className="w-[1.688rem] h-[1.688rem]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none">
@@ -51,6 +58,20 @@ export default function Footer() {
 
                         </a>
                     </div>
+
+                    <div className="text-lg flex flex-row flex-wrap justify-center text-center my-10 mb-5 " >
+                        
+                        <p> Website Developed by:&nbsp;</p>
+                        <a href="https://www.instagram.com/thedhirajkushwaha/" target="_blank">
+
+                            <div className="flex flex-row items-center hover:opacity-60">
+                                <span>Dhiraj Kushwaha</span>
+                                <img className="ml-[5px] h-[25px]" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABWElEQVR4nO2Y30rDMBSH013MP49ofQ9RYU5RER9Ab7a3UfYO6isIIl4oFD4JixpD7ZLupEY5H/Rq4+T3tSdpGmMURVGUvwQwAnaBvYjL/q8yJeFCpVBLDbwNnAAPQBMx8BtwJiAwlQq/IJ3nllqVvavARXBdAk+5BOydT8U+gdOEeTH/oY6IgG2bD/aB8dpFv4efBaEfpQX8ns8dfgYcSwt8IpL8ay5cB+HnTmpatEBXeLP8vVyBVeGLFnDhr7rCFyvQMWFHK1529a8LpIQPXnY7InuhdQRi2yYrfQWKCN9XILVtShSoiwgvJBAdHjgHXtq24kMLVG4VSVpJWO5iLa+9A0uuQkWMhQrEgz6BFrSFEkBb6J+2UJPjoz4E2PDGaYwUwbHKQQ4JYAwceuPcSRb3jzmGYiIpsAXcDhj+BtgUE/AkjoD7yMPdVBpXeyIeXlEURVFMobwDfaVfnvN75poAAAAASUVORK5CYII=" alt="external-link"></img>
+                            </div> 
+
+                        </a>
+                    </div>
+
                     <span className="text-lg text-gray-500 text-center block">© <a href=" ">Neon Cinematics</a> 2025 - All rights reserved.</span>
                 </div>
             </div>

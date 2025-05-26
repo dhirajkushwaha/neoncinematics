@@ -1,9 +1,10 @@
 'use client'
 
-import { useState } from 'react'
+import { useLayoutEffect, useState, useRef} from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+import gsap from 'gsap'
 
 interface NavbarProps {
   active?: string
@@ -21,9 +22,23 @@ export default function Navbar({ active }: NavbarProps) {
     { href: '/shots', label: 'SHOTS' },
     { href: '/about', label: 'ABOUT' },
   ]
+  const navRef =  useRef<HTMLHeadingElement>(null);
+
+  useLayoutEffect(() => {
+    gsap.fromTo(
+      navRef.current,
+      {
+          opacity:0,
+      },
+      {
+        duration: 0.5, delay:0.5, opacity:1,
+        y: 0,
+      }
+    )
+  }, [])
 
   return (
-    <nav className="bg-black text-white relative z-50 polysans">
+    <nav ref={navRef} className=" opacity-0  bg-black text-white relative z-50 polysans">
       {/* Desktop Nav */}
       <div className="hidden md:flex justify-center items-center space-x-20 tracking-wide py-9 font-bold text-white">
         {links.map(link => (

@@ -8,6 +8,24 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'polysans';
+  src: url('../../public/assets/fonts/polysans/polysansitalictrial-medianitalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'futuregeisha';
+  src: url('../../public/assets/fonts/FUTUREGEISHA.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+.fontfg{
+  font-family: futuregeisha;
+}
 
  
 @font-face {
@@ -92,19 +110,19 @@ body {
 }
 
 
+ 
 
+.ButtonA{ 
+  background-color: #FF5722;
+  border-radius: 28px; 
+  border: solid 2px transparent;
+  cursor: pointer !important;
+  transition: all 0.4s  cubic-bezier(0.075, 0.82, 0.165, 1) ;
+  }
+  
+ 
 
-.Button{
-    padding: 12px 20px;
-    background-color: #FF5722;
-    border-radius: 28px;
-    cursor: pointer;
-    border: solid 2px transparent;
-    transition: all 0.4s  cubic-bezier(0.075, 0.82, 0.165, 1) ;
-}
-
-
-.Button:hover{
+.ButtonA:hover{
   background-color: transparent;
   border: solid 2px #FF5722;
 }
@@ -118,4 +136,25 @@ body {
 
 .DMSans{
   font-family: "DM Sans", sans-serif;
+}
+
+
+/* Animation and Stuff */
+
+.neon3{
+  animation: neon3 ;
+  animation: neon3 1.5s ease-in-out ;
+
+    text-shadow: 0 0 5px #fff, 0 0 2px #fff, 0 0 15px #fff, 0 0 12px #ffdd1b, 0 0 1px #ffdd1b, 0 0 22px #ffdd1b, 0 0 50px #ffdd1b, 0 0 41px #FFDD0D
+}
+
+@keyframes neon3 {
+  /* from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffdd1b,
+      0 0 70px #ffdd1b, 0 0 80px #ffdd1b, 0 0 100px #ffdd1b, 0 0 150px #ffdd1b;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 2px #fff, 0 0 15px #fff, 0 0 12px #ffdd1b, 0 0 1px #ffdd1b, 0 0 22px #ffdd1b, 0 0 50px #ffdd1b, 0 0 41px #FFDD0D
+
+  } */
 }

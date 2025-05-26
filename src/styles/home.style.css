@@ -6,7 +6,12 @@
     
 }
 
-
+@media (max-width: 699px) {
+  
+    .hero{
+        background-position-x: -900px;
+    }
+}
 
 .teamSection{
  background-color: #191919;
