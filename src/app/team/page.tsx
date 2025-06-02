@@ -128,7 +128,7 @@ export default function Team() {
     },{
       name: "Avinash",
       role: " ",
-      img: "./assets/images/team/Avinash.jpg",
+      img: "./assets/images/team/avinash.jpg",
     },
     
 
