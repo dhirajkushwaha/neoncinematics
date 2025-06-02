@@ -39,7 +39,7 @@ const CardSection = () => {
             {/* <p className="polysans polysans  text-3xl lg:text-5xl"  >
                 Club Mission & Mission
             </p> */}
-            <div>
+            {/* <div>
                 <h2 className="text-3xl ml-5 sm:text-4xl font-extrabold mb-6 polysans">Upcoming Events</h2>
                 <div className="max-w-6xl mt-5 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {upcoming.map((card, index) => (
@@ -47,7 +47,7 @@ const CardSection = () => {
                     ))}
                 </div>
 
-            </div>
+            </div> */}
 
             <div className="mt-10">
                 <h2 className="text-3xl ml-5 sm:text-4xl font-extrabold mb-6 polysans">Past Events</h2>
@@ -130,7 +130,7 @@ const CardSection = () => {
 
             </div>
 
-            <div className="mt-10">
+            {/* <div className="mt-10">
                 <h2 className="text-3xl ml-5 sm:text-4xl font-extrabold mb-6 polysans">Behind the scenes</h2>
                 <div className="max-w-6xl mt-5 mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                     {upcoming.map((card, index) => (
@@ -138,7 +138,7 @@ const CardSection = () => {
                     ))}
                 </div>
 
-            </div>
+            </div> */}
 
 
 

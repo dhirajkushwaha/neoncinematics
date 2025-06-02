@@ -23,11 +23,11 @@ export default function Footer() {
 
                     <div className="py-16 pb-0 mb-10 " style={{ borderColor: "oklch(0.34 0 0)" }}>
                         <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 "  >
-                            <li><a href="#" className=" hover:text-[#bbbbbb]">Events</a></li>
-                            <li><a href="#" className="  hover:text-[#bbbbbb]">Team</a></li>
-                            <li><a href="#" className="  hover:text-[#bbbbbb]">Goal</a></li>
-                            <li><a href="#" className="  hover:text-[#bbbbbb]">Blog</a></li>
-                            <li><a href="#" className="  hover:text-[#bbbbbb]">About</a></li>
+                            <li><a href="./events" className=" hover:text-[#bbbbbb]">Events</a></li>
+                            <li><a href="./team" className="  hover:text-[#bbbbbb]">Team</a></li>
+                            <li><a href="./goal" className="  hover:text-[#bbbbbb]">Goal</a></li>
+                            <li><a href="./blog" className="  hover:text-[#bbbbbb]">Blog</a></li>
+                            <li><a href="./about" className="  hover:text-[#bbbbbb]">About</a></li>
                         </ul>
 
 

@@ -7,13 +7,13 @@ export default function Blog(){
   {/* Title */}
   <div className="max-w-2xl mx-auto text-center mb-10 lg:mb-14">
     <h2 className="text-2xl font-bold text-white md:text-4xl md:leading-tight polysans">Blogs</h2>
-    <p className="mt-1 text-gray-300">See how game-changing companies are making the most of every engagement with Preline.</p>
+    <p className="mt-1 text-gray-300">No blog posts yet</p>
   </div>
   {/* End Title */}
 
   {/* Grid */}
-  <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    {/* Card */}
+  {/* <div className="  grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    
     <a className="group flex flex-col h-full border border-gray-700 hover:border-gray-600 hover:shadow-xl focus:outline-none focus:border-gray-600 focus:shadow-xl transition duration-300 rounded-xl p-5 bg-[#191919]" href="#">
       <div className="aspect-w-16 aspect-h-11">
         <img className="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1633114128174-2f8aa49759b0?ixlib=rb-4.0.3&auto=format&fit=crop&w=560&q=80" alt="Blog Image" />
@@ -33,9 +33,8 @@ export default function Blog(){
         </div>
       </div>
     </a>
-    {/* End Card */}
-
-    {/* Repeat the same for the other 2 cards */}
+   
+ 
 
     <a className="group flex flex-col h-full border border-gray-700 hover:border-gray-600 hover:shadow-xl focus:outline-none focus:border-gray-600 focus:shadow-xl transition duration-300 rounded-xl p-5 bg-[#191919]" href="#">
       <div className="aspect-w-16 aspect-h-11">
@@ -76,8 +75,8 @@ export default function Blog(){
         </div>
       </div>
     </a>
-    {/* End Cards */}
-  </div>
+     
+  </div> */}
   {/* End Grid */}
 
  

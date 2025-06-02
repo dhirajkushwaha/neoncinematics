@@ -87,7 +87,7 @@ export default function Team() {
       {
       name: "Divyanshi",
       role: " ",
-      img: "./assets/images/team/Divyanshi.jpg",
+      img: "./assets/images/team/divyanshi.jpg",
     },
 
     {
@@ -98,7 +98,7 @@ export default function Team() {
     {
       name: "Gopal",
       role: " ",
-      img: "./assets/images/team/Gopal.png",
+      img: "./assets/images/team/gopal.png",
     },
 {
       name: "Megh",
