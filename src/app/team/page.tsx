@@ -17,7 +17,7 @@ function Card({ img, name, role, size = "small" }:CardProps) {
 
   return (
     <div className="text-center">
-      <img className={`rounded-xl ${imgSizeClass} mx-auto`} src={img} alt="Avatar" />
+      <img className={`rounded-xl ${imgSizeClass} mx-auto object-cover`} src={img} alt="Avatar" />
       <div className="mt-2 sm:mt-4">
         <h3 className={`${isBig ? "text-xl" : "text-sm"} font-medium sm:text-base lg:text-lg`}>
           {name}
