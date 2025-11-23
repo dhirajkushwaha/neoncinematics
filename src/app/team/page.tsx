@@ -98,7 +98,7 @@ export default function Team() {
     {
       name: "Gopal",
       role: " ",
-      img: "./assets/images/team/gopal.png",
+      img: "./assets/images/team/gopal.jpg",
     },
 {
       name: "Megh",
